@@ -36,6 +36,17 @@ nav ul li {
 
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(115, 169, 122);
+    font-size: 1.05rem;
+}
+
+
 .left {
     font-size: 2.7rem;
     margin-top: 15px;
@@ -73,7 +84,7 @@ nav ul li {
 .LeftSec {
     font-size: 2.2rem;
     margin: 105px 58px;
-    margin-inline-start: 69px;
+    /* margin-inline-start: 69px; */
 }
 
 .LeftSec .btn {
@@ -113,21 +124,13 @@ nav ul li {
     color: rgb(115, 169, 122);
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
 
-nav ul li a:hover {
-    color: rgb(115, 169, 122);
-    font-size: 1.05rem;
-}
 
 #element {
     color: rgb(115, 169, 122);
 }
 
-main>hr {
+main hr {
     margin: 10px 97px;
 }
 
@@ -233,6 +236,8 @@ main>hr {
 .Services{
     padding: 30px 0;
 }
+
+
 
 .services-list{
     display: grid;
@@ -514,3 +519,4 @@ nav .fa-solid{
 
 
 }
+
