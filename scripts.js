@@ -2,7 +2,7 @@
 
 
 var typed = new Typed('#element', {
-    strings: ['Jr. Web Dev', 'Community Builder', 'TG Project Manager', 'Marketer'],
+    strings: ['Jr. Web Dev', 'Community Builder', 'TG Project Manager', 'Marketer', 'Jr. Blockchain dev'],
     typeSpeed: 100,
     backSpeed: 50,
     loop: true,
